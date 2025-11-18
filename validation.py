@@ -14,3 +14,11 @@ def validate_operation(operation):
     """Проверяет корректность операции"""
     valid_operations = ['+', '-', '*', '/']
     return operation in valid_operations
+
+def get_user_input():
+    '''Получает ввод от пользователя'''
+    return input('Введите операцию: ')
+
+def get_user_input():
+    '''Получает ввод от пользователя'''
+    return input('Введите операцию: ')

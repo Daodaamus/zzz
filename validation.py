@@ -1,24 +1,6 @@
-"""
-Модуль валидации входных данных
-"""
-
-def validate_number(input_str):
-    """Проверяет, является ли строка числом"""
+def validate_number(text):
     try:
-        float(input_str)
+        float(text)
         return True
-    except ValueError:
+    except:
         return False
-
-def validate_operation(operation):
-    """Проверяет корректность операции"""
-    valid_operations = ['+', '-', '*', '/']
-    return operation in valid_operations
-
-def get_user_input():
-    '''Получает ввод от пользователя'''
-    return input('Введите операцию: ')
-
-def get_user_input():
-    '''Получает ввод от пользователя'''
-    return input('Введите операцию: ')
